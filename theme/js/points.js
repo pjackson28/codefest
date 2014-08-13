@@ -36,7 +36,7 @@ var	isFrench = document.documentElement.lang === "fr",
 				resetStatus: true,
 				userCallback: function() {
 					if ( isBounties ) {
-						var $lastColumnTd = $bountiesTable.children( "tbody" ).find( "td:last-child" ),
+						var $lastColumnTd = $table.children( "tbody" ).find( "td:last-child" ),
 							len = $lastColumnTd.length,
 							td, tdHtml, i;
 
